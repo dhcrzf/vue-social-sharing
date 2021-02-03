@@ -28,7 +28,7 @@ export default {
   quora: 'https://www.quora.com/share?url=@u&title=@t',
   reddit: 'https://www.reddit.com/submit?url=@u&title=@t',
   skype: 'https://web.skype.com/share?url=@t%0D%0A@u%0D%0A@d',
-  sms: 'sms:?body=@t%0D%0A@u%0D%0A@d',
+  sms: 'sms:?body=@t%0D%0A@d%0D%0A@u',
   stumbleupon: 'https://www.stumbleupon.com/submit?url=@u&title=@t',
   telegram: 'https://t.me/share/url?url=@u&text=@t%0D%0A@d',
   tumblr: 'https://www.tumblr.com/share/link?url=@u&name=@t&description=@d',

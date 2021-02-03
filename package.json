@@ -37,8 +37,8 @@
     "test": "jest tests",
     "lint": "eslint --ext js --ext vue src nuxt examples .storybook tests",
     "storybook": "start-storybook",
-    "build": "yarn run build-dist && yarn run build-storybook",
-    "build-dist": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "build": "npm run build-dist",
+    "build-dist": "NODE_ENV=production webpack --config webpack.config.js",
     "build-storybook": "build-storybook -c .storybook -o docs",
     "example": "poi -s examples/index.js",
     "release": "yarn run lint && yarn run test && conventional-github-releaser -p angular && npm publish"

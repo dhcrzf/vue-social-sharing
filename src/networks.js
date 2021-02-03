@@ -14,7 +14,7 @@
 export default {
   baidu: 'http://cang.baidu.com/do/add?iu=@u&it=@t',
   buffer: 'https://bufferapp.com/add?text=@t&url=@u',
-  email: 'mailto:?subject=@t&body=@u%0D%0A@d',
+  email: 'mailto:?subject=@t&body=@d%0D%0A@u',
   evernote: 'https://www.evernote.com/clip.action?url=@u&title=@t',
   facebook: 'https://www.facebook.com/sharer/sharer.php?u=@u&title=@t&description=@d&quote=@q&hashtag=@h',
   flipboard: 'https://share.flipboard.com/bookmarklet/popout?v=2&url=@u&title=@t',
